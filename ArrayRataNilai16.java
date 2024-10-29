@@ -11,7 +11,7 @@ public class ArrayRataNilai16 {
      int jumlahTidakLulus = 0;
 
      for (int i = 0; i < Nilaimhs.length; i++) {
-        System.out.print("Masukkan nilai akhir ke-"+(i+1)+" : ");
+        System.out.print("Masukkan Nilai akhir ke-"+(i+1)+" : ");
         Nilaimhs[i] = sc.nextInt();
     }
     for (int i = 0; i < Nilaimhs.length; i++){
