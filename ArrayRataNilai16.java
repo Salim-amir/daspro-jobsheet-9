@@ -7,6 +7,8 @@ public class ArrayRataNilai16 {
      int[] Nilaimhs = new int[10];
      double total = 0;
      double rata2 ;
+     int jumlahLulus = 0;
+     int jumlahTidakLulus = 0;
 
      for (int i = 0; i < Nilaimhs.length; i++) {
         System.out.print("Masukkan nilai akhir ke-"+(i+1)+" : ");
@@ -17,5 +19,6 @@ public class ArrayRataNilai16 {
     }
     rata2 = total/Nilaimhs.length;
     System.out.println("Rata-Rata Nilai = " + rata2);
+    
     }
 }
